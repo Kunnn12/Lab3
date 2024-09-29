@@ -1,0 +1,33 @@
+Q1
+1.
+git clone https://github.com/Kunnn12/Lab3.git
+2.
+cd Lab3
+3. 
+git branch Markdown
+4.
+git checkout Markdown
+5.
+git branch
+6.
+git add .
+git commit -m "Added lab3_q1.md and lab3_q2.md"
+7.
+git push -u origin Markdown
+8.
+
+Q2
+1. 
+git checkout main
+2.
+git merge Markdown
+3.
+git push
+4.
+git branch -d Markdown
+5.
+git log --oneline
+6.
+git add .
+git commit -m "Added files lab3_code.txt, Q1_8.png, and Q2_5.png"
+git push
